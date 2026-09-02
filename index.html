@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Card design</title>
+    <style>
+        body{
+            margin: 50px;
+            padding: 40px;
+        }
+        .parent{
+            position: absolute;
+            height: 450px;
+            width: 45vw;
+            border: 2px solid antiquewhite;
+            padding: 125px;
+            margin: 43px;
+            
+        }
+        .box1{
+            position: relative;
+            height: 530px;
+            top:20px;
+            border: 2px solid rgb(21, 21, 21);
+            border-radius: 20vh;
+        }
+        .box2{
+            background-image: url("https://imgs.search.brave.com/_6izdbSVpHbwqbawMBquENAqLf6WtvwCZmTG8AhitpY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4t/ZnJvbnQuZnJlZXBp/ay5jb20vaG9tZS9h/bm9uLXJ2bXAvY3Jl/YXRpdmUtc3VpdGUv/cGhvdG9ncmFwaHkv/Y2hhbmdlLWxvY2F0/aW9uLndlYnA");
+            background-position: center;
+            height: 200px;
+            position: relative;
+            top:-515px;
+            border: 1px solid black;
+            border-radius: 40vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+        .btn1{
+            border: 2px solid blue;
+            padding: 8px 16px;
+            background: white;
+            cursor: pointer;
+            border-radius: 50vh;
+            
+           
+        }
+        .box2 .btn1{
+            margin-top: 250px;
+        }
+         .photoblog{
+            margin: 0;
+            padding:12px;
+            height:600px;
+            margin-top:-500px;
+            text-overflow:clip;
+            overflow-wrap: break-word;
+            break-inside: auto;
+        }
+.readmore{
+    background-color: aqua;
+   display:flex;
+    margin:-500px;
+    padding: 10px 30px;
+    margin-inline: 160px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20vh solid rgb(6, 240, 213);
+}
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div class="box1">
+
+        </div>
+        <div class="box2">
+            <button class="btn1">
+                Nature
+            </button>
+            <button class="btn1">
+                Lake
+            </button>
+            
+        </div>
+        <p class="photoblog">Photo for me</p>
+        <p class="photoblog">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellat recusandae iusto quae accusantium incidunt aut enim sunt odio omnis quisquam, rerum quas. Explicabo accusantium pariatur aliquid, asperiores et vitae quos eum corporis quas? Dolores consequuntur est cumque odio quae placeat reprehenderit. Velit, quae incidunt!\</p>
+   <button class="readmore">
+        Read More
+    </button>
+    </div>
+    
+</body>
+</html>
